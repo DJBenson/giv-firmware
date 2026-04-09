@@ -84,6 +84,7 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base.
 
 - Previous: [SG03](Firmware/Inverter/Hybrid%20Gen3%20HV/SG03.zip)
 - Release: [SG04](Firmware/Inverter/Hybrid%20Gen3%20HV/SG04.zip)
+- Pre-release: SG05 (Let me know if you have this - the link in the firmware portal is wrong and links to SG03)
 
 #### 3 Phase (11kW-20kW - Standard Version)
 
