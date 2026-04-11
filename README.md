@@ -116,3 +116,9 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base.
 #### HF21 Dongle Chipset
 
 - [Chipset-v27-Boot-114](Firmware/USB_WiFi%20Dongle/HF21%20Dongle%20Chipset/Chipset-v27-Boot-114.zip)
+
+### EVC
+
+- [AC_GL1_1.12](Firmware/EVC/AC_GL1_1.12.bin)
+- [AC_GL1_1.13](Firmware/EVC/AC_GL1_1.13.bin)
+- [AC_GL1_1.14](Firmware/EVC/AC_GL1_1.14.bin)
