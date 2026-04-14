@@ -105,6 +105,9 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base.
 
 ### USB/WiFi Dongle
 
+- Firmware: [Download](Firmware/USB_WiFi%20Dongle/WiFi%206%20Dongle/wifi6%20update.zip)
+- Instructions: [Download](Firmware/USB_WiFi%20Dongle/WiFi%206%20Dongle/how%20to%20update%20the%20wifi%206%20dongle.pdf)
+
 #### USB Dongle
 
 - [USB-Dongle-v105](Firmware/USB_WiFi%20Dongle/USB%20Dongle/USB-Dongle-v105.zip)
@@ -116,6 +119,8 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base.
 #### HF21 Dongle Chipset
 
 - [Chipset-v27-Boot-114](Firmware/USB_WiFi%20Dongle/HF21%20Dongle%20Chipset/Chipset-v27-Boot-114.zip)
+
+#### WiFi 6 Dongle
 
 ### EVC
 
