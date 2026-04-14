@@ -2,7 +2,7 @@
 
 Archived on **2026-04-09**.
 
-Firmware binaries scraped from the GivEnergy firmware knowledge base.
+Firmware binaries scraped from the GivEnergy firmware knowledge base and gathered from (former) GivEnergy staff.
 
 ## Files
 
