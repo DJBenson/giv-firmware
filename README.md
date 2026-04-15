@@ -128,8 +128,15 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base and gathere
 
 #### WiFi 6 Dongle
 
-### EVC
+### EVC (I do no thave actual changelogs for 1.13 and 1.14 so added what I know was included)
 
-- [AC_GL1_1.12](Firmware/EVC/AC_GL1_1.12.bin)
+- [AC_GL1_1.12 (31 May 2024)](Firmware/EVC/AC_GL1_1.12.bin)
+  - NTP call not using windows.com. Should be pool.ntp.org (Related to strict TLS requirements released in 1.11)
+  - Optimise command queueing. Resolve random offline when in inverter control mode
+  - Add function to adjust CP voltage threshold on a case by case basis. Causing CP11 Error, in preparing state
+  
 - [AC_GL1_1.13](Firmware/EVC/AC_GL1_1.13.bin)
+  - Enables modbus over ethernet (only active after ~10 minutes after device reboots)
+
 - [AC_GL1_1.14](Firmware/EVC/AC_GL1_1.14.bin)
+  - Adds Change Suspended State Wait Timeout (Change the amount of time that charger will wait once suspended before sleeping. Maximum 12 hours).
