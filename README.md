@@ -49,7 +49,7 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base and gathere
 
 ### Batteries
 
-#### BMS Gen1 & Gen2 ([Release Notes](Firmware/Battery/Gen1-Gen2/Release%Notes.pdf))
+#### BMS Gen1 & Gen2 ([Release Notes](Firmware/Battery/Gen1-Gen2/Release%20Notes.pdf))
 
 - [3017](Firmware/Battery/Gen1-Gen2/3017.zip)
 - [3018](Firmware/Battery/Gen1-Gen2/3018.zip)
