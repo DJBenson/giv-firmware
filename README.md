@@ -104,7 +104,7 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base and gathere
 - [3 Phase ZA09 Inverter](Firmware/Inverter/3%20Phase%20%2811kW-20kW%20Standard%20Version%29/3PhaseZA09Inverter.zip)
 - [3-Phase-HV-ZA11-BMS9_Firmware-Packup-All-11-Nov-2025](Firmware/Inverter/3%20Phase%20%2811kW-20kW%20Standard%20Version%29/3-Phase-HV-ZA11-BMS9_Firmware-Packup-All-11-Nov-2025.zip)
 
-#### 3 Phase (15kW-20kW - TJXXXX Serial No.) ([Release Notes](Firmware/Inverter/3%20Phase%20%2815kW-20kW%20TJXXXX%20Serial%20No.%29/Release%Notes.pdf))
+#### 3 Phase (15kW-20kW - TJXXXX Serial No.) ([Release Notes](Firmware/Inverter/3%20Phase%20%2815kW-20kW%20TJXXXX%20Serial%20No.%29/Release%20Notes.pdf))
 
 - [ZB02 - 20kw Parallel TJ Serial Numbers](Firmware/Inverter/3%20Phase%20%2815kW-20kW%20TJXXXX%20Serial%20No.%29/ZB02-20kwParallelTJSerialNumbers.zip)
 - [ZB03 - 20kw Parallel Version TJ Serial number & BMS9](Firmware/Inverter/3%20Phase%20%2815kW-20kW%20TJXXXX%20Serial%20No.%29/ZB03-20kwParallelVersionTJSerialnumber_BMS9.zip)
