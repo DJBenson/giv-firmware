@@ -58,13 +58,13 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base and gathere
 - [3021](Firmware/Battery/Gen1-Gen2/3021.zip)
 - [3022](Firmware/Battery/Gen1-Gen2/3022.zip)
 
-#### BMS Gen3 ([Release Notes](Firmware/Battery/Gen3/Release%Notes.pdf))
+#### BMS Gen3 ([Release Notes](Firmware/Battery/Gen3/Release%20Notes.pdf))
 
 - [4009](Firmware/Battery/Gen3/4009.zip)
 - [4010](Firmware/Battery/Gen3/4010.zip)
 - [4011](Firmware/Battery/Gen3/4011.zip)
 
-#### HV Stackable ([Release Notes](Firmware/Battery/HV%20Stackable/Release%Notes.pdf))
+#### HV Stackable ([Release Notes](Firmware/Battery/HV%20Stackable/Release%20Notes.pdf))
 
 - [BABA0006](Firmware/Battery/HV%20Stackable/BABA0006.zip)
 - [BABA0007](Firmware/Battery/HV%20Stackable/BABA0007.zip)
@@ -72,7 +72,7 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base and gathere
 
 ### Inverters
 
-#### AC Coupled ([Release Notes](Firmware/Inverter/AC%20Coupled/Release%Notes.pdf))
+#### AC Coupled ([Release Notes](Firmware/Inverter/AC%20Coupled/Release%20Notes.pdf))
 
 - [D212-A212](Firmware/Inverter/AC%20Coupled/D212-A212Apr2025.zip)
 - [A214-D214](Firmware/Inverter/AC%20Coupled/A214-D214-02-Nov-2025.zip)
