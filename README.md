@@ -79,7 +79,7 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base and gathere
 
 #### Hybrid Gen1 ([Release Notes](Firmware/Inverter/Hybrid%20Gen1/Release%20Notes.pdf))
 
-- [A187-D187 fast reaction with RTCL](Firmware/Inverter/Hybrid%20Gen1/A920-D920.zip) (**This is for the newer revision of the gen1 inverter - if you're unsure, do not load this, it WILL kill your inverter**).
+- [A187-D187 fast reaction with RTCL] Removed as I don't want people bricking their inverters. If you need this, there are other ways to obtain it.
 
 #### Hybrid Gen2 ([Release Notes](Firmware/Inverter/Hybrid%20Gen2/Release%20Notes.pdf))
 
