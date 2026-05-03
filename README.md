@@ -142,8 +142,15 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base and gathere
   - Optimise command queueing. Resolve random offline when in inverter control mode
   - Add function to adjust CP voltage threshold on a case by case basis. Causing CP11 Error, in preparing state
   
-- [AC_GL1_1.13](Firmware/EVC/AC_GL1_1.13.bin)
+- [AC_GL1_1.13 (30 Aug 2024)](Firmware/EVC/AC_GL1_1.13.bin)
+  - Import Limitation optimisation
   - Enables modbus over ethernet (only active after ~10 minutes after device reboots)
 
 - [AC_GL1_1.14](Firmware/EVC/AC_GL1_1.14.bin)
-  - Adds Change Suspended State Wait Timeout (Change the amount of time that charger will wait once suspended before sleeping. Maximum 12 hours).
+  - Modify the SmartCharging startup rules to allow only one startup per day for a single Period.
+  - New function: Add the “SuspevTime” Key, with a range of 0–43200. Help with 12v system usage while car is idle
+    - Detail: If the car is in control of charging, the EVC will wait for this time before assuming charging is not required again, shutting down the comms channel to the car ECU. A longer wait time will allow the EVC to          respond to Start controls from the car, under external controls. eg Octopus Intelligent Go; set this timer to 0 (As in previous firmware this function was not enabled)
+    - Downside: communication channel between car and EVC remains open, some cars can drain 12v systems if left for long periods.
+    - This new suspend function is designed to prevent the car and EVC remaining in communication for extended periods, while allowing a sensible window or charge re-activation. Once charging re-starts, the timer is reset.
+    - If using this, set a value larger than the expected time between charging requests. 
+  - Add the “ChargingStateBCPVoltageHigherLimit” to modify the upper limit threshold of the CP (Wait state) 9V voltage, with a range of 100–105 (10-10.5v), in units of 0.1V. For cars that deliver control signals outside the     SmartCharging allowed standard 8-(9)-10 v wait state.
