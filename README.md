@@ -146,7 +146,7 @@ Firmware binaries scraped from the GivEnergy firmware knowledge base and gathere
   - Import Limitation optimisation
   - Enables modbus over ethernet (only active after ~10 minutes after device reboots)
 
-- [AC_GL1_1.14](Firmware/EVC/AC_GL1_1.14.bin)
+- [AC_GL1_1.14 (09 May 2025)](Firmware/EVC/AC_GL1_1.14.bin)
   - Modify the SmartCharging startup rules to allow only one startup per day for a single Period.
   - New function: Add the “SuspevTime” Key, with a range of 0–43200. Help with 12v system usage while car is idle
     - Detail: If the car is in control of charging, the EVC will wait for this time before assuming charging is not required again, shutting down the comms channel to the car ECU. A longer wait time will allow the EVC to          respond to Start controls from the car, under external controls. eg Octopus Intelligent Go; set this timer to 0 (As in previous firmware this function was not enabled)
